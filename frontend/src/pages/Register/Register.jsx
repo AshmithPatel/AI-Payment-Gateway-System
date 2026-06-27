@@ -20,12 +20,24 @@ function Register() {
       />
 
       <InputField
+        label="Phone Number"
+        type="tel"
+        placeholder="Enter your phone number"
+      />
+
+      <InputField
         label="Password"
         type="password"
         placeholder="Create password"
       />
 
-      <Button text="Register" />
+      <InputField
+        label="Confirm Password"
+        type="password"
+        placeholder="Confirm password"
+      />
+
+      <Button text="Create Account" />
 
       <p className="text-center mt-5">
         Already have an account?{" "}
